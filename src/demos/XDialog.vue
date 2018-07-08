@@ -10,7 +10,7 @@
     </group>
 
     <div v-transfer-dom>
-      <x-dialog v-model="showToast" class="dialog-demo">
+      <x-dialog :show="showToast" class="dialog-demo">
         <div style="padding:15px;">
           <x-button @click.native="doShowToast" type="primary">show toast</x-button>
         </div>
